@@ -6,7 +6,7 @@
         simple logging wrapper
     
     Example:
-        >>> from logr.logr import Logr
+        >>> from logr import Logr
         >>> class TestLogr(Logr):
         >>>     def __init__(self):
         >>>         super(TestLogr, self).__init__('~/test')
